@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="todo">
   <head>
     <meta charset="UTF-8" />
     <title>Personal Trainer</title>
@@ -31,24 +31,57 @@
     ></script>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="body">
     <header>
-      <nav class="navbar">
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Sobre nosotros</a></li>
-          <li><a href="#">Contacto</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <img src="/bootstrap-logo.svg" alt="" width="30" height="24" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-md-auto">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link" href="#">Traning</a>
+              <a class="nav-link" href="#">Sobre mi</a>
+              <a class="nav-link" href="#">Contactame</a>
+            </div>
+          </div>
+        </div>
       </nav>
+    </header>
+    <main>
       <div class="container">
         <div class="row">
-          <div class="col col-6">Primera columna</div>
-          <div class="col col-6">Segunda columna</div>
-          <button type="button" class="btn btn-primary">Primary</button>
+          <div class="col-sm">
+            <div class="intro">
+              <h1>Betiana Armengol</h1>
+              <br />
+              <p>Personal Trainer</p>
+            </div>
+            <div class="botones">
+              <button type="button" class="btn btn-primary">Contactame</button>
+              <button type="button" class="btn btn-outline-primary">
+                Saber mas
+              </button>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="imagen-central">
+              <img src="img/entrena.jpg" alt="" width="300px" height="300px" />
+            </div>
+          </div>
         </div>
       </div>
-    </header>
-    <main></main>
+    </main>
     <footer></footer>
   </body>
 </html>

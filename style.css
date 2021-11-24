@@ -1,0 +1,56 @@
+.body {
+  background-image: radial-gradient(
+    circle at 88.36% 4.28%,
+    #c03efa 0,
+    #a83afc 25%,
+    #8b38ff 50%,
+    #6637ff 75%,
+    #2538ff 100%
+  );
+  width: 80%;
+}
+
+.navbar .navbar-brand {
+  font-size: 32px;
+}
+.navbar a {
+  color: white !important;
+}
+
+.intro {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  border-radius: 32px;
+  padding: 10px;
+  font-size: 18px;
+  margin: 10px;
+}
+.btn-primary {
+  border: none;
+}
+.btn-outline-primary {
+  border-color: white;
+  color: white;
+}
+.intro {
+  padding-top: 200px;
+}
+.imagen-central img {
+  border-radius: 50%;
+}
+.imagen-central {
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
